@@ -43,16 +43,16 @@ Maak nu onderstaande schakeling op je breadboard.
 Hou rekening met de polarisatie van het LEDje! Dit betekent dat het uitmaakt hoe de '+'-kant en de '-'-kant van het LEDje geplaatst wordt. Het langste beentje aan je LEDje is steeds de '+'-kant.
 Er wordt in de afbeelding een weerstand van 220 Ohm (kleurencode rood - rood - bruin - goud) gebruikt, maar je kan hier elke waarde tussen 100 Ohm en 1000 Ohm gebruiken.
 
-![image](https://github.com/Jeugdwerking-FLEM/introductie-arduino/code-inleiding/blink/blink_schakeling.png)
+![image](https://github.com/Jeugdwerking-FLEM/introductie-arduino/blob/main/code-inleiding/blink/blink_schakeling.png?raw=true)
 
 De code pas je gemakkelijk aan door de lijn `int LED = 13;` helemaal bovenaan toe te voegen (boven de setup) en door overal de `LED_BUILDIN` te veranderen naar `LED`.
 Je hebt nu dus aan je programma gezegd dat er op pin 13 een component aanwezig is dat jij hebt ‘LED’ genoemd: je kan die naam dus aanpassen naar wat je zelf handig vindt, bijvoorbeeld met de kleur van je LED als je meerdere LEDs hebt.
 
-Je kan de juiste code ook [hier](https://github.com/Jeugdwerking-FLEM/introductie-arduino/code-inleiding/blink) bekijken.
+Je kan de juiste code ook [hier](https://github.com/Jeugdwerking-FLEM/introductie-arduino/tree/main/code-inleiding/blink) bekijken.
 
 Probeer als dit lukt een extra LEDje toe te voegen op pin 12: je hebt dus ook nog een extra weerstand nodig. TIP: als je een breadboard hebt met ‘+’ en ‘-‘ -lijnen dan kan je de GND samennemen op de blauwe lijn.
 Wat de code betreft: je moet dus bovenaan een naam geven aan het LEDje op pin 12. Ook is één `digitalWrite()` maar voor één pin, dus je zal er wat extra moeten bijvoegen.
 
 Probeer met een rood, oranje/geel en groen LEDje een verkeerslicht te ontwerpen!
 
-Een mogelijke oplossing kan je [hier](https://github.com/Jeugdwerking-FLEM/introductie-arduino/code-inleiding/verkeerslicht) vinden.
+Een mogelijke oplossing kan je [hier](https://github.com/Jeugdwerking-FLEM/introductie-arduino/tree/main/code-inleiding/verkeerslicht) vinden.
