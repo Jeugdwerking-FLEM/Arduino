@@ -13,7 +13,9 @@ In dit gedeelte leer je een LEDje bedienen met een drukknop. Het type drukknop d
 
 Maak nu onderstaande schakeling na.
 
-![image](photos/ledje_met_drukknop_schakeling.png)
+<img src="https://github.com/Jeugdwerking-FLEM/arduino/blob/main/code-2-drukknop/ledje_met_drukknop_schakeling.png" width="500"/>
 
-De bijhorende code kan op de Arduino IDE bekomen worden door te gaan naar File > Examples > 02.Digital > Button of kan [hier](https://github.com/Jeugdwerking-FLEM/introductie-arduino/tree/main/code-2-drukknop) bekeken worden.
+De bijhorende code kan op de Arduino IDE bekomen worden door te gaan naar File > Examples > 02.Digital > Button of kan [hier](https://github.com/Jeugdwerking-FLEM/introductie-arduino/tree/main/code-2-drukknop) bekeken worden. 
+
+De drukknop wordt geïnstatieerd als input en het LEDje als output. De status van de knop wordt ingelezen en in de variabele `buttonState` gestoken. Als deze op 'HIGH' staat, en dus de knop wordt ingedrukt, zal het LEDje branden. Anders niet!
 
