@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gevorderd
+title: 3. Geheugenspelletje
 nav_order: 4
 #has_children: true
 ---
