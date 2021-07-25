@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2. Drukknop
+title: 2. Schakelaar
 nav_order: 3
 ---
 
