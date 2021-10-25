@@ -18,9 +18,11 @@ De bijhorende code kan op de Arduino IDE bekomen worden door te navigeren naar F
 
 De drukknop wordt geïnstantieerd als input en het LEDje als output. De status van de knop wordt ingelezen en in de variabele `buttonState` gestoken. Als deze op 'HIGH' staat, en dus de knop wordt ingedrukt, zal het LEDje branden. Anders niet!
 
-<img align="left" src="photos/LDR.png" width="80" height="170">
+## De Lichtgevoelige Weerstand
 
-Naast een drukknop kan je bijvoorbeeld ook een LDR gebruiken. LDR staat voor 'Light Dependent Resistor' - dit is dus een lichtgevoelige weerstand. Dit wil zeggen dat de waarde van de weerstand afhankelijk is van de hoeveelheid licht die erop schijnt. Hoe meer licht, hoe lager de weerstand. Links wordt zo'n LDR afgebeeld.
+<img align="right" src="photos/LDR.png" width="80" height="170">
+
+Naast een drukknop kan je bijvoorbeeld ook een LDR gebruiken. LDR staat voor 'Light Dependent Resistor' - dit is dus een lichtgevoelige weerstand. Dit wil zeggen dat de waarde van de weerstand afhankelijk is van de hoeveelheid licht die erop schijnt. Hoe meer licht, hoe lager de weerstand. Rechts wordt zo'n LDR afgebeeld.
 
 In het volgende projectje zal de waarde van de LDR uitgelezen worden door de Arduino. Met behulp van 5 LEDjes zullen we de waarde weergeven: hoe meer licht de LDR opvangt, hoe meer LEDjes er zullen branden. Voor de LEDjes gebruiken we, zoals de vorige keren, digitale pinnen. Voor de LDR hebben we nu een analoge pin nodig: we gaan hier pin A0 gebruiken. 
 
